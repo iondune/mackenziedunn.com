@@ -1,0 +1,70 @@
+---
+layout: default
+active: home
+---
+
+<div class="jumbotron">
+  <img width="600" height="137" style="max-width: 100%; height: auto;" src="img/LogoClean.png" />
+  <hr />
+  <p>Welcome!</p>
+  <p>My name is <span class="text-primary">Ian Dunn</span> and I am a software engineer and student at <span class="text-success">Cal Poly, SLO</span>. I made this website to
+  serve as an online portfolio and a repository for projects and media I have worked on.</p>
+</div>
+
+<div class="row">
+  <div class="col-md-6">
+    <div class="panel panel-danger">
+      <div class="panel-heading">
+        <h3 class="panel-title"><strong>Projects</strong></h3>
+      </div>
+      <div class="panel-body">
+        <p>
+          Compendium of projects, complete and incomplete
+        </p>
+        <p><a class="btn btn-xs btn-danger" href="{{ "projects" | prepend: site.baseurl }}" role="button">Click to open &raquo;</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="panel panel-warning">
+      <div class="panel-heading">
+        <h3 class="panel-title"><strong>Portfolio</strong></h3>
+      </div>
+      <div class="panel-body">
+        <p>
+          My most complete and interesting work, in presentable format
+        </p>
+        <p><a class="btn btn-xs btn-warning" href="{{ "portfolio" | prepend: site.baseurl }}" role="button">Click to open &raquo;</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-6">
+    <div class="panel panel-success">
+      <div class="panel-heading">
+        <h3 class="panel-title"><strong>Resume</strong></h3>
+      </div>
+      <div class="panel-body">
+        <p>
+          Digital and printable versions of my short-form resume
+        </p>
+        <p><a class="btn btn-xs btn-success" href="{{ "resume" | prepend: site.baseurl }}" role="button">Click to open &raquo;</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+        <h3 class="panel-title"><strong>Etc.</strong></h3>
+      </div>
+      <div class="panel-body">
+        <p>
+          Links, collections, articles, curiosities
+        </p>
+        <p><a class="btn btn-xs btn-primary" href="{{ "etc" | prepend: site.baseurl }}" role="button">Click to open &raquo;</a></p>
+      </div>
+    </div>
+  </div>
+</div>
