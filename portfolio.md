@@ -27,6 +27,4 @@ list of my projects is available on the [Projects][3] page.
 
 ## Demo Reel
 
-<div class="video-container">
-  <iframe width="640" height="360" src="//www.youtube.com/embed/dwiQE7jKPGk?rel=0" frameborder="0" allowfullscreen></iframe>
-</div>
+{% include youtube-player.html video="dwiQE7jKPGk" %}
