@@ -13,6 +13,12 @@
 
     {% include footer.html %}
 
+    {% if page.script %}
+      <script>
+      {{ page.script }}
+      </script>
+    {% endif %}
+
   </body>
 
 </html>

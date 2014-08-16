@@ -1,0 +1,47 @@
+advanced:
+    - name: C++
+      description: My primary language, used in <a href='projects/ionengine'>ionEngine</a> and all related projects
+    - name: C
+      description: The systems programming class that I TA focusing on this language
+    - name: CUDA
+      description: Used extensively in my rasterizer and fractal renderer projects
+    - name: OpenGL
+      description: Used in all my 3D applications
+    - name: GLSL
+      description: Used in all my 3D applications
+    - name: Java
+      description: The primary language of Cal Poly, I have used it in several classes.
+    - name: PHP
+      description: This website is made in PHP! Used in many of my web projects.
+    - name: Bash
+      description: I have a reputation for solving tedious problems with absurd bash scripts.
+    - name: UNIX
+      description: The primary subject of the systems programming class that I TA
+    - name: Mercurial
+      description: My VCS of choice - I am an evangelist for HG, much to the annoyance of my git-using colleagues
+intermediate:
+    - name: SQL
+      description: The database systems class that I TA'd focused on this language.
+    - name: PhysX
+      description: Used in a few of my earlier projects.
+    - name: Boost
+      description: I used the smart pointer libraries extensively until they were incorporated into C++11. Some experience with other libraries.
+    - name: Python
+      description: I used Python to set up an automatic grading system for the systems programming class that I TA
+    - name: LaTeX
+      description: Used for the occasional research paper or publication
+    - name: HTML/CSS/Javascript/jQuery
+      description: This website was hand coded using all of these tools
+    - name: Git
+      description: I praise mercurial, but often have to use git when working in teams
+familiar:
+    - name: Visual Studio
+      description: Used for all of my Windows C++ development - my preferred platform
+    - name: Make
+      description: Whenever I work on *nix, my go-to build system
+    - name: Adobe Photoshop
+      description: I spent four years as the graphics editor for my high school newspaper.
+    - name: Adobe InDesign
+      description: I spent three years as a page editor for my high school newspaper.
+    - name: Jekyll
+      description: I used this to set up my <a href='http://iondune.github.io'>GitHub page</a>
