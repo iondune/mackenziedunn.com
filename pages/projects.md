@@ -50,6 +50,3 @@ active: projects
 {% include project-card.html    image="ozJkApK"    name="Relic"                       link="projects/relic"                     description="WIP crap rpg" %}
 {% include project-card.html    image="N36BAeq"    name="Fireflight"                  link="projects/fireflight"                description="global game jam attempt" %}
 </div>
-
-
-<?php setActive('Projects'); ?>
