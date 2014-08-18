@@ -47,6 +47,5 @@ active: projects
 <h2>Unfinished/Abandoned</h2>
 <p>Projects that I never finished and don't plan to return to</p>
 <div class="row">
-{% include project-card.html    image="ozJkApK"    name="Relic"                       link="projects/relic"                     description="WIP crap rpg" %}
-{% include project-card.html    image="N36BAeq"    name="Fireflight"                  link="projects/fireflight"                description="global game jam attempt" %}
+{% include project-card.html    image="N36BAeq"    name="Fireflight"                  link="projects/fireflight"                description="global game jam 2012" %}
 </div>
