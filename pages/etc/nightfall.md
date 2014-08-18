@@ -41,13 +41,13 @@ back in 2013 but it appears that nothing came of it. There's also a more recent
 
 	<param
 		name="src"
-		value="<?php echo $rootDirectory; ?>/data/spybot_0807_sw.dcr">
+		value="{{ "data/spybot_0807_sw.dcr" | prepend: site.baseurl }}">
 	<param
 		name="bgcolor"
 		value="#FFFFFF">
 	<embed
 		id="embedObject"
-		src="<?php echo $rootDirectory; ?>/data/spybot_0807_sw.dcr"
+		src="{{ "data/spybot_0807_sw.dcr" | prepend: site.baseurl }}"
 		bgcolor="#FFFFFF"
 		type="application/x-director"
 		pluginspage="http://www.macromedia.com/shockwave/download/"
