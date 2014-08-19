@@ -2,7 +2,8 @@
 // Bootswatch
 // -----------------------------------------------------
 
-@import url($web-font);
+@import url($web-font1);
+@import url($web-font2);
 
 @mixin shadow($width: 4px) {
   border-width: 0 1px $width 1px;
