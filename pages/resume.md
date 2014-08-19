@@ -132,6 +132,6 @@ script: |
 
 <div class="row">
 <div class="col-sm-12">
-  <p>A static .pdf version of this resume can be found <a href="http://iondune.com/resume/IanDunn.pdf">here</a>.</p>
+  <p>A static .pdf version of this resume can be found <a href="{{ "data/IanDunn.pdf" | prepend: site.baseurl }}">here</a>.</p>
 </div>
 </div>
