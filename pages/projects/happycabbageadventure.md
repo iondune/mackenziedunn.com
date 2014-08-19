@@ -10,7 +10,7 @@ active: projects
 
 <h2>Video</h2>
 
-<?php makeYoutubePlayer("2hUuz6pF8OU"); ?>
+{% include youtube-player.html video="2hUuz6pF8OU" %}
 
 <h2>Description</h2>
 
