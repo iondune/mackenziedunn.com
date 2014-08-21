@@ -49,7 +49,7 @@ script: |
     <h2 class="panel-title"><span class="glyphicon glyphicon-tasks" style="margin-right: 10px;"></span>Projects</h2>
   </div>
   <div class="panel-body">
-    My largest and most interesting project is <a href="http://www.ionengine3d.com">ionEngine</a>. Additionally, see the <a href="projects">Projects</a> and <a href="portfolio">Portfolio</a> sections.
+    My largest and most interesting project is <a href="http://www.ionengine3d.com">ionEngine</a>. Additionally, see the <a href="{{ "projects" | prepend: site.baseurl }}">Projects</a> and <a href="{{ "portfolio" | prepend: site.baseurl }}">Portfolio</a> sections.
   </div>
 </div>
 
