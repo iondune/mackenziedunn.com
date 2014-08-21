@@ -82,6 +82,9 @@ active: projects
         </div>
       </div>
     </div>
+    <div class="row">
+      {% include bitbucket.html project="volume-rendering-project" class="col-sm-12" %}
+    </div>
   </div>
 </div>
 
