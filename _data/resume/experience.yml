@@ -1,34 +1,44 @@
-- heading: ICEX
+- heading: Customer Experience Intern
+  icon: img/icon/ms.png
   body: >
-    The <span class="text-success">International Computer Engineering Experience [Cal Poly]</span>
+    Microsoft: Software development, analysis, and research related to social media data and customer sentiment. Summer 2014
+
+- heading: ICEX Research/Field Work
+  icon: img/icon/cp.png
+  body: >
+    Cal Poly: The <span class="text-success">International Computer Engineering Experience [Cal Poly]</span>
     Program was an NSF-funded research project exploring cisterns and other water
     features in Malta and Sicily. Spent 1 month working abroad, primary roles graphics
     visualization software and robot hardware management. <span class="text-primary">Winter 2013</span>
 
-- heading: Head Teaching Assistant [Cal Poly]
+- heading: Head Teaching Assistant
+  icon: img/icon/cp.png
   body: >
-    Conduct labs, develop assignments and examinations, manage other TAs, and develop automatic grading systems.
+    Cal Poly: Conduct labs, develop assignments and examinations, manage other TAs, and develop automatic grading systems.
     For classes <span class="text-success">Systems Programming</span> (5 quarters) and
     <span class="text-success">Introduction to Database Systems</span> (1 quarter). Inverted instruction model.
     <span class="text-primary">Fall 2012 - Present</span>
 
-- heading: Research Assistant [Cal Poly]
+- heading: Research Assistant
+  icon: img/icon/cp.png
   body: >
-    Spent two summers
+    Cal Poly: Spent two summers
     <span class="text-primary">(2012, 2013)</span>
     as a research assistant for Dr. Zoe Wood, graphics professor at Cal Poly. Worked on
     several acquired data projects, including
     volumetric data visualization and surface reconstruction. Two publications - see
     Education section.
 
-- heading: Tutor [Cal Poly]
+- heading: Tutor
+  icon: img/icon/cp.png
   body: >
-    Worked as a tutor in
+    Cal Poly: Worked as a tutor in
     computer science tutoring center, providing instruction and lab assistance.
     <span class="text-primary">4 Quarters, Fall 2012-Winter 2014</span>
 
-- heading: Virtual Enterprise [Bakersfield High School]
+- heading: Virtual Enterprise
+  icon: img/icon/bhs.png
   body: >
-    Vice President of Information Technology. Part of 2-person web development team - website took
+    Bakersfield High School: Vice President of Information Technology. Part of 2-person web development team - website took
     3rd place in Virtual Enterprises International Website Competition
     <span class="text-primary">(New York, March 2010)</span>

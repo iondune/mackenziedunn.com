@@ -112,18 +112,17 @@ script: |
     <div class="row">
 
 {% for experience in site.data.resume.experience %}
-  <div class="col-lg-4 col-sm-6">
-    <div class="panel panel-info">
-      <div class="panel-heading">
-        <h3 class="panel-title">{{ experience.heading }}</h3>
+      <div class="col-lg-4 col-sm-6">
+        <div class="panel panel-info" style="min-height: 244px;">
+          <div class="panel-heading">
+            {% if experience.icon %}<img src="{{ experience.icon | prepend: site.baseurl }}" style="padding-right: 10px;"/> {% endif %}
+            <h3 class="panel-title" style="vertical-align: bottom; display: inline;">{{ experience.heading }}</h3>
+          </div>
+          <div class="panel-body">
+            {{ experience.body }}
+          </div>
+        </div>
       </div>
-      <div class="panel-body">
-        {{ experience.body }}
-      </div>
-    </div>
-  </div>
-
-  {% cycle '', '<div class="clearfix visible-md visible-sm"></div>' %}
 {% endfor %}
 
     </div>
