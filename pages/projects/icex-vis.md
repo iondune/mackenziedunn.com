@@ -36,36 +36,51 @@ active: projects
     </p>
   </div>
 
-<?php
-function makeThumbnailBlock($i, $desc)
-{
-?>
-<div class="col-sm-6">
-  <div class="thumbnail">
-    <a href="http://www.iondune.com/570/content/thumbs/<?php echo $i; ?>.png">
-      <img src="http://www.iondune.com/570/content/thumbs/<?php echo $i; ?>.png" width="300" class="img-thumbnail">
-    </a>
-    <div class="caption">
-      <strong><?php echo $i; ?></strong> <?php echo $desc; ?>
-    </div>
-  </div>
-</div>
-<?php
-}
-?>
 
   <div class="col-sm-6">
     <div class="row">
-  <?php
-  makeThumbnailBlock(1, "One small colored cube for each point in the data set. Here, red colors indicate high oxygenation and blue colors indicate low oxygenation.");
-  makeThumbnailBlock(2, "Volume render with point cloud context.");
-  ?>
+      <div class="col-sm-6">
+        <div class="thumbnail">
+          <a href="{{ "img/content/icex-vis/thumbs/1.png" | prepend: site.baseurl }}">
+            <img src="{{ "img/content/icex-vis/thumbs/1.png" | prepend: site.baseurl }}" width="300" class="img-thumbnail">
+          </a>
+          <div class="caption">
+            <strong>1</strong> One small colored cube for each point in the data set. Here, red colors indicate high oxygenation and blue colors indicate low oxygenation.
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="thumbnail">
+          <a href="{{ "img/content/icex-vis/thumbs/2.png" | prepend: site.baseurl }}">
+            <img src="{{ "img/content/icex-vis/thumbs/2.png" | prepend: site.baseurl }}" width="300" class="img-thumbnail">
+          </a>
+          <div class="caption">
+            <strong>2</strong> Volume render with point cloud context.
+          </div>
+        </div>
+      </div>
     </div>
     <div class="row">
-  <?php
-  makeThumbnailBlock(3, "Only areas of the data volume which have a certain sensor value are shown, making it easy to search for internal patterns within the data.");
-  makeThumbnailBlock(4, "Geographic context!");
-  ?>
+      <div class="col-sm-6">
+        <div class="thumbnail">
+          <a href="{{ "img/content/icex-vis/thumbs/3.png" | prepend: site.baseurl }}">
+            <img src="{{ "img/content/icex-vis/thumbs/3.png" | prepend: site.baseurl }}" width="300" class="img-thumbnail">
+          </a>
+          <div class="caption">
+            <strong>3</strong> Only areas of the data volume which have a certain sensor value are shown, making it easy to search for internal patterns within the data.
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="thumbnail">
+          <a href="{{ "img/content/icex-vis/thumbs/4.png" | prepend: site.baseurl }}">
+            <img src="{{ "img/content/icex-vis/thumbs/4.png" | prepend: site.baseurl }}" width="300" class="img-thumbnail">
+          </a>
+          <div class="caption">
+            <strong>4</strong> Geographic context!
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
