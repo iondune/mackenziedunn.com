@@ -3,3 +3,4 @@ syntax: glob
 _site
 *.sublime-workspace
 Thumbs.db
+*.psd
