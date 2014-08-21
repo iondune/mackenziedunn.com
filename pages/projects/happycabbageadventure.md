@@ -8,6 +8,11 @@ active: projects
 
 <h1>Happy Cabbage Adventure</h1>
 
+## About
+
+Happy Cabbage Adventure was a game I worked on in a game development course at Cal Poly from January 2012 to June 2012. My
+primary responsibilities were the core game engine, the collision system, and the deferred shading system.
+
 <h2>Video</h2>
 
 {% include youtube-player.html video="2hUuz6pF8OU" %}
