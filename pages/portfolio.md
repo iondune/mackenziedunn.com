@@ -44,3 +44,16 @@ list of my projects is available on the [Projects][3] page.
 ## Demo Reel
 
 {% include youtube-player.html video="dwiQE7jKPGk" %}
+
+### Reel Breakdown
+
+1. [CUDA Accelerated Ray Tracer]({{ "projects/raytracer" | prepend: site.baseurl }})
+2. [Volumetric Data Visualization]({{ "projects/icex-vis" | prepend: site.baseurl }})
+3. [House Animation]({{ "projects/ionengine" | prepend: site.baseurl }})
+4. [Happy Cabbage Adventure]({{ "projects/happycabbageadventure" | prepend: site.baseurl }})
+5. [Terrain Rendering Sysytem]({{ "projects/ionengine" | prepend: site.baseurl }})
+6. [Particle System Demo]({{ "projects/ionengine" | prepend: site.baseurl }})
+7. [Rollercoaster Animation]({{ "projects/ionengine" | prepend: site.baseurl }})
+8. [Fractal Zoom]({{ "projects/fractal" | prepend: site.baseurl }})
+
+
