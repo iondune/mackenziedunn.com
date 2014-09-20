@@ -26,4 +26,4 @@ primary responsibilities were the core game engine, the collision system, and th
 
 <h2>Screenshots</h2>
 
-{% include imgur-album.html video="QoTVV" %}
+{% include imgur-album.html album="QoTVV" %}

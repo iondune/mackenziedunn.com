@@ -26,4 +26,4 @@ The fractal itself actually continues on infinitely.
 
 ## Images
 
-{% include imgur-album.html video="t5F5j" %}
+{% include imgur-album.html album="t5F5j" %}
