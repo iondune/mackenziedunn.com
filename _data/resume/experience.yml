@@ -1,3 +1,11 @@
+
+- heading: Teaching Associate
+  icon: img/icon/cp.png
+  body: >
+    Cal Poly: Instructor for <span class="text-success">Systems Programming</span> class. Manage student TA staff, develop
+    assignments and examinations, and administrate automatic grading systems. Inverted instruction model, 1 quarter.
+    <span class="text-primary">Fall 2014</span>
+
 - heading: Customer Experience Intern
   icon: img/icon/ms.png
   body: >
@@ -17,7 +25,7 @@
     Cal Poly: Conduct labs, develop assignments and examinations, manage other TAs, and develop automatic grading systems.
     For classes <span class="text-success">Systems Programming</span> (5 quarters) and
     <span class="text-success">Introduction to Database Systems</span> (1 quarter). Inverted instruction model.
-    <span class="text-primary">Fall 2012 - Present</span>
+    <span class="text-primary">Fall 2012 - Spring 2014</span>
 
 - heading: Research Assistant
   icon: img/icon/cp.png
