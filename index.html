@@ -1,73 +1,114 @@
 ---
 layout: default
-active: home
+title: Mackenzie Beaschler
+script: |
+  $(document).ready(function() {
+    $(".pop").popover({html:true});
+  });
 ---
 
-<div class="jumbotron">
-  <img width="600" height="137" style="max-width: 100%; height: auto;" src="img/LogoClean.png" />
-  <hr />
-  <p>Welcome!</p>
-  <p>
-    My name is <span class="text-primary">Ian Dunn</span> and I am a software engineer and
-    student at <span class="text-success">Cal Poly, SLO</span>. I made this website to
-    serve as an online portfolio and a repository for projects and media I have worked on.
-  </p>
-</div>
+<h1>Mackenzie Beaschler</h1>
+<img style="margin-top: -72px;" class="pull-right" src="{{ "img/mackfish.gif" | prepend: site.baseurl }}" alt="" />
 
-<div class="row">
-  <div class="col-md-6">
-    <div class="panel panel-danger">
-      <div class="panel-heading">
-        <h3 class="panel-title"><strong>Projects</strong></h3>
-      </div>
-      <div class="panel-body">
-        <p>
-          Compendium of projects, complete and incomplete
-        </p>
-        <p><a class="btn btn-xs btn-danger" href="{{ "projects" | prepend: site.baseurl }}" role="button">Click to open &raquo;</a></p>
-      </div>
-    </div>
+<div class="panel panel-danger">
+  <div class="panel-heading">
+    <h2 class="panel-title"><span class="glyphicon glyphicon-cog" style="margin-right: 10px;"></span>Skills</h2>
   </div>
-  <div class="col-md-6">
-    <div class="panel panel-warning">
-      <div class="panel-heading">
-        <h3 class="panel-title"><strong>Portfolio</strong></h3>
-      </div>
-      <div class="panel-body">
-        <p>
-          My most complete and interesting work, in presentable format
-        </p>
-        <p><a class="btn btn-xs btn-warning" href="{{ "portfolio" | prepend: site.baseurl }}" role="button">Click to open &raquo;</a></p>
-      </div>
-    </div>
+  <div class="panel-body">
+    <h4 class="text-danger" style="margin-top: 0;">Lab</h4>
+
+{% for skill in site.data.resume.skills.advanced %}
+  <button type="button" class="btn btn-default pop" data-container="body" data-toggle="popover" data-placement="bottom" data-trigger="focus" data-content="{{ skill.description }}">
+    {{ skill.name }}
+  </button>
+{% endfor %}
+
+    <h4 class="text-danger" style="margin-top: 25px">Computer</h4>
+
+{% for skill in site.data.resume.skills.intermediate %}
+  <button type="button" class="btn btn-default pop" data-container="body" data-toggle="popover" data-placement="bottom" data-trigger="focus" data-content="{{ skill.description }}">
+    {{ skill.name }}
+  </button>
+{% endfor %}
+
+    <h4 class="text-danger" style="margin-top: 25px">Other Practical</h4>
+
+{% for skill in site.data.resume.skills.familiar %}
+  <button type="button" class="btn btn-default pop" data-container="body" data-toggle="popover" data-placement="bottom" data-trigger="focus" data-content="{{ skill.description }}">
+    {{ skill.name }}
+  </button>
+{% endfor %}
+
   </div>
 </div>
 
+<div class="panel panel-success">
+  <div class="panel-heading">
+    <h2 class="panel-title"><span class="glyphicon glyphicon-book" style="margin-right: 10px;"></span> Education</h2>
+  </div>
+  <div class="panel-body">
+    <h4 class="no-break text-success">San Francisco State University</h4><span style="margin-left: 20px;">San Francisco, CA</span>
+    <ul>
+      <li>B.S. in Marine Biology/Limnology (143 units completed)</li>
+      <li><strong>GPA:</strong> 2.95</li>
+      <li><strong>Major GPA:</strong> 2.81</li>
+    </ul>
+
+    <h4 class="text-success">Pertinent Coursework</h4>
+    <div class="row">
+
+{% assign columns_iterator = "1,2,3" | split: "," %}
+{% assign course_array = site.data.resume.courses %}
+{% assign class_array = "visible-xs col-xs-12,visible-md visible-sm col-sm-6,visible-lg col-lg-4" | split: "," %}
+
+{% for columns in columns_iterator %}
+  {% assign each = course_array.size | divided_by: columns | ceil %}
+  {% assign class_index = columns | minus: 1 %}
+
+  {% for col in (1..columns) %}
+    <div class="{{ class_array[class_index] }}">
+      <ul>
+        {% for i in (1..each) %}
+          {% assign index = col | minus: 1 | times: each | plus: i | minus: 1 %}
+          <li>{{ course_array[index].name }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% endfor %}
+{% endfor %}
+
+    </div>
+  </div>
+</div>
+
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    <h2 class="panel-title"><span class="glyphicon glyphicon-globe" style="margin-right: 10px;"></span> Experience</h2>
+  </div>
+  <div class="panel-body">
+    <div class="row">
+
+{% for experience in site.data.resume.experience %}
+      <div class="col-lg-4 col-sm-6">
+        <div class="panel panel-info" style="min-height: 244px;">
+          <div class="panel-heading">
+            {% if experience.icon %}<img src="{{ experience.icon | prepend: site.baseurl }}" style="padding-right: 10px;"/> {% endif %}
+            <h3 class="panel-title" style="vertical-align: bottom; display: inline;">{{ experience.heading }}</h3>
+          </div>
+          <div class="panel-body">
+            {{ experience.body }}
+          </div>
+        </div>
+      </div>
+      {% if experience.clear %}<div class="clearfix"></div>{% endif %}
+{% endfor %}
+
+    </div>
+  </div>
+</div>
+
 <div class="row">
-  <div class="col-md-6">
-    <div class="panel panel-success">
-      <div class="panel-heading">
-        <h3 class="panel-title"><strong>Resume</strong></h3>
-      </div>
-      <div class="panel-body">
-        <p>
-          Digital and printable versions of my short-form resume
-        </p>
-        <p><a class="btn btn-xs btn-success" href="{{ "resume" | prepend: site.baseurl }}" role="button">Click to open &raquo;</a></p>
-      </div>
-    </div>
-  </div>
-  <div class="col-md-6">
-    <div class="panel panel-primary">
-      <div class="panel-heading">
-        <h3 class="panel-title"><strong>Etc.</strong></h3>
-      </div>
-      <div class="panel-body">
-        <p>
-          Links, collections, articles, curiosities
-        </p>
-        <p><a class="btn btn-xs btn-primary" href="{{ "etc" | prepend: site.baseurl }}" role="button">Click to open &raquo;</a></p>
-      </div>
-    </div>
-  </div>
+<div class="col-sm-12">
+  <!-- <p>A static .pdf version of this resume can be found <a href="{{ "data/IanDunn.pdf" | prepend: site.baseurl }}">here</a>.</p> -->
+</div>
 </div>

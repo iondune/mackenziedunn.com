@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="portfolio and compendium of projects">
     <meta name="author" content="ian dunn">
-    <link rel="shortcut icon" href="{{ "favicon.ico" | prepend: site.baseurl }}">
+    <link rel="shortcut icon" type="image/png" href="{{ "favicon.png" | prepend: site.baseurl }}">
 
-    <title>{% if page.title %} {{ page.title }} | {{ site.title }} {% else %} {{ site.title }} {% endif %}</title>
+    <title>{% if page.title %} {{ page.title }} {% else %} {{ site.title }} {% endif %}</title>
 
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
@@ -19,33 +19,6 @@
 </head>
 
 <body>
-
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="{{ site.baseurl }}">iondune</a>
-        </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li{% if page.active == 'home' %} class="active"{% endif %}><a href="{{ site.baseurl }}">Home</a></li>
-            <li{% if page.active == 'projects' %} class="active"{% endif %}><a href="{{ "projects" | prepend: site.baseurl }}">Projects</a></li>
-            <li{% if page.active == 'portfolio' %} class="active"{% endif %}><a href="{{ "portfolio" | prepend: site.baseurl }}">Portfolio</a></li>
-            <li{% if page.active == 'resume' %} class="active"{% endif %}><a href="{{ "resume" | prepend: site.baseurl }}">Resume</a></li>
-            <li{% if page.active == 'etc' %} class="active"{% endif %}><a href="{{ "etc" | prepend: site.baseurl }}">Etc.</a></li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li{% if page.active == 'about' %} class="active"{% endif %}><a href="{{ "about" | prepend: site.baseurl }}">About</a></li>
-            <li{% if page.active == 'contact' %} class="active"{% endif %}><a href="{{ "contact" | prepend: site.baseurl }}">Contact</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
 
     <div class="container">
       {{ content }}

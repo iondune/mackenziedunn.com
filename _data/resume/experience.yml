@@ -1,52 +1,63 @@
 
-- heading: Teaching Associate
-  icon: img/icon/cp.png
+- heading: Assistant/Lead Teacher
   body: >
-    Cal Poly: Instructor for <span class="text-success">Systems Programming</span> class. Manage student TA staff, develop
-    assignments and examinations, and administrate automatic grading systems. Inverted instruction model, 1 quarter.
-    <span class="text-primary">Fall 2014</span>
+    I worked at Tree Frog Treks from <strong>Spring 2013-Summer 2014</strong>. During the school
+    year I acted as a teacher assistant in our after school programs. At nights
+    and special events I would often take a lead role in discussing our animal
+    ambassadors and talking about what our program offers. During the summer I
+    was a co-lead in our summer camps. I have experience working with kids from
+    ages 3-10. I mainly worked with a younger age group over the summer and the
+    older kids in the after school programs and night events we had.
 
-- heading: Customer Experience Intern
-  icon: img/icon/ms.png
+- heading: Animal Care Volunteer
   body: >
-    Microsoft: Software development, analysis, and research related to social media data and customer sentiment. Summer 2014
+    I volunteered at the Aquarium of the Bay from <strong>September 2012-June 2014</strong>. I
+    took care of both terrestrial and aquatic animals. I cleaned cages/tanks,
+    regulated pHs, prepared diets, and provided enrichments. I have experience
+    handling and feeding large predatory sea life (giant pacific octopi, moray
+    eels, wolf eels, and younger sharks). I’ve assisted with checking bat rays
+    for parasite loads using slide scrapings of their slime, routine check ups
+    of our smaller sharks(leopard and spiny dogfish shark).
 
-- heading: ICEX Research/Field Work
-  icon: img/icon/cp.png
-  body: >
-    Cal Poly: The <span class="text-success">International Computer Engineering Experience [Cal Poly]</span>
-    Program was an NSF-funded research project exploring cisterns and other water
-    features in Malta and Sicily. Spent 1 month working abroad, primary roles graphics
-    visualization software and robot hardware management. <span class="text-primary">Winter 2013</span>
 
-- heading: Head Teaching Assistant
-  icon: img/icon/cp.png
+- heading: Family Farm Volunteer
   body: >
-    Cal Poly: Conduct labs, develop assignments and examinations, manage other TAs, and develop automatic grading systems.
-    For classes <span class="text-success">Systems Programming</span> (5 quarters) and
-    <span class="text-success">Introduction to Database Systems</span> (1 quarter). Inverted instruction model.
-    <span class="text-primary">Fall 2012 - Spring 2014</span>
+    I volunteered at the San Francisco Zoo’s Family Farm from <strong>June 2012-2013</strong>. I
+    took care of a variety of farm animals. I enriched them, prepared their
+    diets, and assisted in the maintenance of their health.
+  clear: yes
 
-- heading: Research Assistant
-  icon: img/icon/cp.png
+- heading: Lab Assistant
   body: >
-    Cal Poly: Spent two summers
-    <span class="text-primary">(2012, 2013)</span>
-    as a research assistant for Dr. Zoe Wood, graphics professor at Cal Poly. Worked on
-    several acquired data projects, including
-    volumetric data visualization and surface reconstruction. Two publications - see
-    Education section.
+    I worked in Dr. Vance Vredenburg’s lab at SFSU from <strong>Fall 2011-Spring 2014</strong>. I
+    assisted in multiple graduate projects by running samples and helping out in
+    the field. In 2012 I swabbed preserved specimens at the California Academy
+    of Science for a collaborative project between them and our lab. I acquired
+    hands on experience interpreting data and running qPCR tests on swabs from
+    all over the country.
 
-- heading: Tutor
-  icon: img/icon/cp.png
-  body: >
-    Cal Poly: Worked as a tutor in
-    computer science tutoring center, providing instruction and lab assistance.
-    <span class="text-primary">4 Quarters, Fall 2012-Winter 2014</span>
 
-- heading: Virtual Enterprise
-  icon: img/icon/bhs.png
+- heading: Construction Volunteer
   body: >
-    Bakersfield High School: Vice President of Information Technology. Part of 2-person web development team - website took
-    3rd place in Virtual Enterprises International Website Competition
-    <span class="text-primary">(New York, March 2010)</span>
+    Went with a church group to build houses in Tijuana, Mexico for 1 week in
+    <strong>Summer 2007 and 2008</strong>.<br />First Presbytarian<br />17th St, Bakersfield CA
+    93301<br /> (661)325-9419
+
+
+- heading: Summer Camp Volunteer
+  body: >
+    When my mother worked as camp nurse I attended with her and spent hours
+    helping out in the kitchen. I prepped food and cleaned dishes and work
+    stations. I also participated in a program called AIM (Assistants in
+    Mission) where I spent one week working with accommodations and the second
+    week in the office.<br />Calvin Crest<br />45800 Calvin Crest Rd, Oakhurst
+    CA<br /> (559)683-4450
+
+
+- heading: Medical Filer
+  body: >
+    I filed and copied medical paperwork for the patients under Interims care.
+    This was a basic summer job.<br />Interim Healthcare<br />4801 Truxtun Ave,
+    Bakersfield CA 93309<br />(661)395-1700<br /><strong>Summer 2009</strong>
+
+

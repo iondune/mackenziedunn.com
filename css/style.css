@@ -4,7 +4,6 @@ html {
 
 body {
   min-height: 110%;
-  padding-top: 70px;
 }
 
 .well img {
@@ -36,4 +35,8 @@ body {
 .large {
   line-height: 28px;
   font-size: 14px;
+}
+
+.pop {
+  margin-bottom: 10px;
 }

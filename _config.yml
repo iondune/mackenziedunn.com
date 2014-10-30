@@ -1,8 +1,8 @@
 
 # Site settings
-title: iondune
+title: MackenzieBeaschler
 baseurl: "/"
-url: "http://iondune.com"
+url: "http://mackenziebeaschler.com"
 
 # Build settings
 markdown: kramdown
