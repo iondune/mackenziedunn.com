@@ -10,6 +10,7 @@
     older kids in the after school programs and night events we had.
 
 - heading: Animal Care Volunteer
+  clear: visible-xs-block visible-sm-block visible-md-block
   body: >
     I volunteered at the Aquarium of the Bay from <strong>September 2012-June 2014</strong>. I
     took care of both terrestrial and aquatic animals. I cleaned cages/tanks,
@@ -19,13 +20,12 @@
     for parasite loads using slide scrapings of their slime, routine check ups
     of our smaller sharks(leopard and spiny dogfish shark).
 
-
 - heading: Family Farm Volunteer
+  clear: yes
   body: >
     I volunteered at the San Francisco Zoo’s Family Farm from <strong>June 2012-2013</strong>. I
     took care of a variety of farm animals. I enriched them, prepared their
     diets, and assisted in the maintenance of their health.
-  clear: yes
 
 - heading: Lab Assistant
   body: >
@@ -35,29 +35,3 @@
     of Science for a collaborative project between them and our lab. I acquired
     hands on experience interpreting data and running qPCR tests on swabs from
     all over the country.
-
-
-- heading: Construction Volunteer
-  body: >
-    Went with a church group to build houses in Tijuana, Mexico for 1 week in
-    <strong>Summer 2007 and 2008</strong>.<br />First Presbytarian<br />17th St, Bakersfield CA
-    93301<br /> (661)325-9419
-
-
-- heading: Summer Camp Volunteer
-  body: >
-    When my mother worked as camp nurse I attended with her and spent hours
-    helping out in the kitchen. I prepped food and cleaned dishes and work
-    stations. I also participated in a program called AIM (Assistants in
-    Mission) where I spent one week working with accommodations and the second
-    week in the office.<br />Calvin Crest<br />45800 Calvin Crest Rd, Oakhurst
-    CA<br /> (559)683-4450
-
-
-- heading: Medical Filer
-  body: >
-    I filed and copied medical paperwork for the patients under Interims care.
-    This was a basic summer job.<br />Interim Healthcare<br />4801 Truxtun Ave,
-    Bakersfield CA 93309<br />(661)395-1700<br /><strong>Summer 2009</strong>
-
-
