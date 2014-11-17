@@ -1,33 +1,36 @@
-advanced:
-    - name: qPCR (Extraction, Dilution)
-      description: I’ve been doing qPCR for the Vredenburg lab at SFSU for 3 years
-    - name: Fieldwork
-      description: I have been in the field several times assisting the Vredenburg lab with swabbing and collecting of amphibians. I collected soil samples and data for my Wetland Ecology class for a semester. I also assisted a wetland project from Boyer’s Lab where we spent several hours setting up plots of marine plants in the San Francisco Bay.
-    - name: Handling and swabbing preserved specimens
-      description: I spent several days swabbing specimens at the Cal Academy for a collaborative project with the Vredenburg lab.
-    - name: Prepping eel grass for study
-      description: I spent several hours preparing eel grass samples for tests. Scrapping of epiphytes and taking several measurements.
-intermediate:
-    - name: Microsoft Office (Word/Excel) Intermediate
+lab:
+  - name: qPCR (Extraction, Dilution)
+    description: I’ve been doing qPCR for the Vredenburg lab at SFSU for 3 years
+  - name: Fieldwork
+    description: I have been in the field several times assisting the Vredenburg lab with swabbing and collecting of amphibians. I collected soil samples and data for my Wetland Ecology class for a semester. I also assisted a wetland project from Boyer’s Lab where we spent several hours setting up plots of marine plants in the San Francisco Bay.
+  - name: Handling and swabbing preserved specimens
+    description: I spent several days swabbing specimens at the Cal Academy for a collaborative project with the Vredenburg lab.
+  - name: Prepping eel grass for study
+    description: I spent several hours preparing eel grass samples for tests. Scrapping of epiphytes and taking several measurements.
+computer:
+  intermediate:
+    - name: Microsoft Office (Word/Excel)
       description: Used for years in multiple settings
-    - name: Openoffice (Writer/Calc/Impress) Intermediate
+    - name: Openoffice (Writer/Calc/Impress)
       description: Used for years in multiple settings
-    - name: Google Office (Document/Presentation/Spreadsheet) Intermediate
+    - name: Google Office (Document/Presentation/Spreadsheet)
       description: Used for years in multiple settings
-    - name: Adobe (Photoshop/Indesign) Familiar
+  familiar:
+    - name: Adobe (Photoshop/Indesign)
       description: Used for 1 year in high school for journalism as a page editor
-    - name: GIS Familiar
+    - name: GIS
       description: Used for mapping fieldwork numerous times over 3 years
-    - name: SPSS Familiar
+    - name: SPSS
       description: Used in biometry for 1 semester
-    - name: R Familiar
+    - name: R
       description: Used in biometry for 1 semester
-    - name: Python Beginning
+  beginning:
+    - name: Python
       description: I’m starting to learn coding through codeacademy
-familiar:
-    - name: Scuba
-      description: I received a standard 60 ft certification from a UCSF program
-    - name: 1st Aid/CPR
-      description: I am certified till May 18, 2015
-    - name: Ability to Care and Manage a variety of species
-      description: Through volunteering, work, and my own experiences I have worked and taken care of a multitude of different animals.
+practical:
+  - name: Scuba
+    description: I received a standard 60 ft certification from a UCSF program
+  - name: 1st Aid/CPR
+    description: I am certified till May 18, 2015
+  - name: Ability to Care and Manage a variety of species
+    description: Through volunteering, work, and my own experiences I have worked and taken care of a multitude of different animals.

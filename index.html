@@ -17,7 +17,7 @@ script: |
   <div class="panel-body">
     <h4 class="text-danger" style="margin-top: 0;">Lab</h4>
 
-{% for skill in site.data.resume.skills.advanced %}
+{% for skill in site.data.resume.skills.lab %}
   <button type="button" class="btn btn-default pop" data-container="body" data-toggle="popover" data-placement="bottom" data-trigger="focus" data-content="{{ skill.description }}">
     {{ skill.name }}
   </button>
@@ -25,15 +25,30 @@ script: |
 
     <h4 class="text-danger" style="margin-top: 25px">Computer</h4>
 
-{% for skill in site.data.resume.skills.intermediate %}
-  <button type="button" class="btn btn-default pop" data-container="body" data-toggle="popover" data-placement="bottom" data-trigger="focus" data-content="{{ skill.description }}">
-    {{ skill.name }}
-  </button>
+    <h5 class="text-danger">Intermediate:</h5>
+{% for skill in site.data.resume.skills.computer.intermediate %}
+    <button type="button" class="btn btn-default pop" data-container="body" data-toggle="popover" data-placement="bottom" data-trigger="focus" data-content="{{ skill.description }}">
+      {{ skill.name }}
+    </button>
 {% endfor %}
 
-    <h4 class="text-danger" style="margin-top: 25px">Other Practical</h4>
+    <h5 class="text-danger">Familiar:</h5>
+{% for skill in site.data.resume.skills.computer.familiar %}
+    <button type="button" class="btn btn-default pop" data-container="body" data-toggle="popover" data-placement="bottom" data-trigger="focus" data-content="{{ skill.description }}">
+      {{ skill.name }}
+    </button>
+{% endfor %}
 
-{% for skill in site.data.resume.skills.familiar %}
+    <h5 class="text-danger">Beginning:</h5>
+{% for skill in site.data.resume.skills.computer.beginning %}
+    <button type="button" class="btn btn-default pop" data-container="body" data-toggle="popover" data-placement="bottom" data-trigger="focus" data-content="{{ skill.description }}">
+      {{ skill.name }}
+    </button>
+{% endfor %}
+
+    <h4 class="text-danger" style="margin-top: 25px">Practical</h4>
+
+{% for skill in site.data.resume.skills.practical %}
   <button type="button" class="btn btn-default pop" data-container="body" data-toggle="popover" data-placement="bottom" data-trigger="focus" data-content="{{ skill.description }}">
     {{ skill.name }}
   </button>
