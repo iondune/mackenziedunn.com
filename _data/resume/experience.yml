@@ -1,5 +1,37 @@
 
+- heading: Sports Authority Cashier/Apparel
+  body: >
+    <ul>
+    <li>Worked the register</li>
+    <li>Helped customers find items</li>
+    <li>Tidied up the apparel and hard line sections of the store</li>
+    </ul>
+    <strong>Spring 2016-Until May 25, 2016</strong>
+
+- heading: Kravabowl Cashier/Apparel
+  body: >
+    <ul>
+    <li>Worked the register.</li>
+    <li>Blended orders.</li>
+    <li>Served out orders.</li>
+    <li>General cleaning and dishes.</li>
+    <li>Took inventory.</li>
+    </ul>
+    <strong>Spring 2016-Summer 2016</strong>
+
+- heading: Lunchbox Labratory Cashier/Server
+  body: >
+    <ul>
+    <li>Worked the register.</li>
+    <li>Restocked front and back of house.</li>
+    <li>Served out orders.</li>
+    <li>General cleaning and dishes.</li>
+    </ul>
+    <strong>Summer 2015-Fall 2015</strong>
+
+
 - heading: Assistant/Lead Teacher
+  clear: yes
   body: >
     I worked at Tree Frog Treks from <strong>Spring 2013-Summer 2014</strong>. During the school
     year I acted as a teacher assistant in our after school programs. At nights
@@ -10,7 +42,7 @@
     older kids in the after school programs and night events we had.
 
 - heading: Animal Care Volunteer
-  clear: visible-xs-block visible-sm-block visible-md-block
+  # clear: visible-xs-block visible-sm-block visible-md-block
   body: >
     I volunteered at the Aquarium of the Bay from <strong>September 2012-June 2014</strong>. I
     took care of both terrestrial and aquatic animals. I cleaned cages/tanks,
