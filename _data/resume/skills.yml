@@ -28,8 +28,8 @@ computer:
     - name: Python
       description: I’m starting to learn coding through codeacademy
 practical:
-  - name: Scuba
-    description: I received a standard NAUI certification
+  - name: SCUBA
+    description: I received a NAUI open water certification
   - name: 1st Aid/CPR/AED
     description: I received certification from ASHI
   - name: Ability to handle and provide care to a variety of species
