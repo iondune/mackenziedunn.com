@@ -31,7 +31,7 @@
 
 
 - heading: Assistant/Lead Teacher
-  clear: yes
+  clear: visible-xs-block visible-sm-block visible-md-block
   body: >
     I worked at Tree Frog Treks from <strong>Spring 2013-Summer 2014</strong>. During the school
     year I acted as a teacher assistant in our after school programs. At nights
