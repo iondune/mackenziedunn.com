@@ -22,8 +22,6 @@ computer:
       description: Used for mapping fieldwork numerous times over 3 years
     - name: SPSS
       description: Used in biometry for 1 semester
-    - name: R
-      description: Used in biometry for 1 semester
   beginning:
     - name: Python
       description: I’m starting to learn coding through codeacademy
