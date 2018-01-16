@@ -1,4 +1,10 @@
 lab:
+  - name: IHC Staining
+    description: Can use both Ventana Ultra and XT to perform a variety of stains
+  - name: Special Staining
+    description: Can perform a variety of stains manually and using a Ventana Nexes
+  - name: Embedding
+    description: Can embed tissues using a Tissuetek for Histology purposes
   - name: qPCR (Extraction, Dilution)
     description: I’ve been doing qPCR for the Vredenburg lab at SFSU for 3 years
   - name: Fieldwork
@@ -9,7 +15,13 @@ lab:
     description: I spent several hours preparing eel grass samples for tests. Scrapping of epiphytes and taking several measurements.
 computer:
   intermediate:
-    - name: Microsoft Office (Word/Excel)
+    - name: Powerpath
+      description: Used while at CCPL
+    - name: Sharepoint
+      description: Used while at CCPL
+    - name: MediaLab
+      description: Used while at CCPL
+    - name: Microsoft Office (Word/Excel/Powerpoint)
       description: Used for years in multiple settings
     - name: Openoffice (Writer/Calc/Impress)
       description: Used for years in multiple settings
