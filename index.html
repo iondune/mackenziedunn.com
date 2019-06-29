@@ -23,35 +23,20 @@ script: |
   </button>
 {% endfor %}
 
-    <h4 class="text-danger" style="margin-top: 25px">Computer</h4>
-
-    <h5 class="text-danger">Intermediate:</h5>
-{% for skill in site.data.resume.skills.computer.intermediate %}
-    <button type="button" class="btn btn-default pop" data-container="body" data-toggle="popover" data-placement="bottom" data-trigger="focus" data-content="{{ skill.description }}">
-      {{ skill.name }}
-    </button>
-{% endfor %}
-
-    <h5 class="text-danger">Familiar:</h5>
-{% for skill in site.data.resume.skills.computer.familiar %}
-    <button type="button" class="btn btn-default pop" data-container="body" data-toggle="popover" data-placement="bottom" data-trigger="focus" data-content="{{ skill.description }}">
-      {{ skill.name }}
-    </button>
-{% endfor %}
-
-    <h5 class="text-danger">Beginning:</h5>
-{% for skill in site.data.resume.skills.computer.beginning %}
-    <button type="button" class="btn btn-default pop" data-container="body" data-toggle="popover" data-placement="bottom" data-trigger="focus" data-content="{{ skill.description }}">
-      {{ skill.name }}
-    </button>
-{% endfor %}
-
-    <h4 class="text-danger" style="margin-top: 25px">Practical</h4>
+    <h4 class="text-danger" style="margin-top: 20px;">Practical</h4>
 
 {% for skill in site.data.resume.skills.practical %}
   <button type="button" class="btn btn-default pop" data-container="body" data-toggle="popover" data-placement="bottom" data-trigger="focus" data-content="{{ skill.description }}">
     {{ skill.name }}
   </button>
+{% endfor %}
+
+    <h4 class="text-danger" style="margin-top: 20px">Computer</h4>
+
+{% for skill in site.data.resume.skills.computer %}
+    <button type="button" class="btn btn-default pop" data-container="body" data-toggle="popover" data-placement="bottom" data-trigger="focus" data-content="{{ skill.description }}">
+      {{ skill.name }}
+    </button>
 {% endfor %}
 
   </div>
@@ -117,43 +102,6 @@ script: |
       {% if experience.clear %}<div class="clearfix {{ experience.clear }}"></div>{% endif %}
 {% endfor %}
 
-    </div>
-    <div class="row">
-    <div class="col-xs-12">
-    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-      <div class="panel panel-default">
-        <div class="panel-heading" role="tab" id="headingOne">
-          <h4 class="panel-title">
-            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-              Experience Prior To 2010 (Click to Expand)
-            </a>
-          </h4>
-        </div>
-        <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-          <div class="panel-body">
-            <div class="row">
-
-{% for experience in site.data.resume.oldexperience %}
-              <div class="col-lg-4 col-sm-6">
-                <div class="panel panel-info" style="min-height: 244px;">
-                  <div class="panel-heading">
-                    {% if experience.icon %}<img src="{{ experience.icon | prepend: site.baseurl }}" style="padding-right: 10px;"/> {% endif %}
-                    <h3 class="panel-title" style="vertical-align: bottom; display: inline;">{{ experience.heading }}</h3>
-                  </div>
-                  <div class="panel-body">
-                    {{ experience.body }}
-                  </div>
-                </div>
-              </div>
-              {% if experience.clear %}<div class="clearfix {{ experience.clear }}"></div>{% endif %}
-{% endfor %}
-
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    </div>
     </div>
   </div>
 </div>

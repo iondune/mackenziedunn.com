@@ -1,4 +1,12 @@
 
+- heading: Current Volunteer Work
+  body: >
+    <ul>
+    <li><strong>Hillsboro Parks & Recreation</strong>: Participated in community and park related projects.</li>
+    <li><strong>Wetland Conservancy</strong>: Identified and recorded egg masses of several amphibian species.</li>
+    <li><strong>Metro</strong>: Visited sites to observe change in water level and completed a terrestrial survey.</li>
+    </ul>
+
 - heading: Histology Tech Assistant
   body: >
     <p>
@@ -9,7 +17,7 @@
     </p>
 
 - heading: Lemos Feed and Pet Supply Sales Associate
-  clear: visible-sm-block
+  clear: visible-lg-block
   body: >
     <ul>
     <li>Answered customer questions on products</li>
@@ -19,7 +27,7 @@
     <strong>Fall 2016-Winter 2016</strong>
 
 - heading: Petsmart Pet Care Associate
-  clear: visible-lg-block
+  clear:
   body: >
     <ul>
     <li>Cleaned cages/tanks</li>
@@ -71,7 +79,6 @@
     older kids in the after school programs and night events we had.
 
 - heading: Animal Care Volunteer
-  clear: visible-md-block visible-sm-block
   body: >
     I volunteered at the Aquarium of the Bay from <strong>September 2012-June 2014</strong>. I
     took care of both terrestrial and aquatic animals. I cleaned cages/tanks,
@@ -82,7 +89,7 @@
     of our smaller sharks(leopard and spiny dogfish shark).
 
 - heading: Family Farm Volunteer
-  clear: visible-lg-block
+  clear: visible-md-block visible-sm-block
   body: >
     I volunteered at the San Francisco Zoo’s Family Farm from <strong>June 2012-2013</strong>. I
     took care of a variety of farm animals. I enriched them, prepared their

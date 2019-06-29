@@ -40,3 +40,7 @@ body {
 .pop {
   margin-bottom: 10px;
 }
+
+.panel-body > ul {
+  padding-left: 20px;
+}

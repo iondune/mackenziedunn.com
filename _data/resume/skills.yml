@@ -1,44 +1,47 @@
 lab:
   - name: IHC Staining
-    description: Can use both Ventana Ultra and XT to perform a variety of stains
+    description: Can use both Ventana Ultra and XT to perform a variety of stains.
   - name: Special Staining
-    description: Can perform a variety of stains manually and using a Ventana Nexes
+    description: Can perform a variety of stains manually and using a Ventana Nexes.
   - name: Embedding
-    description: Can embed tissues using a Tissuetek for Histology purposes
+    description: Can embed tissues using a Tissuetek for Histology purposes.
   - name: qPCR (Extraction, Dilution)
-    description: I’ve been doing qPCR for the Vredenburg lab at SFSU for 3 years
-  - name: Fieldwork
-    description: I have been in the field several times assisting the Vredenburg lab with swabbing and collecting of amphibians. I collected soil samples and data for my Wetland Ecology class for a semester. I also assisted a wetland project from Boyer’s Lab where we spent several hours setting up plots of marine plants in the San Francisco Bay.
-  - name: Handling and swabbing preserved specimens
-    description: I spent several days swabbing specimens at the Cal Academy for a collaborative project with the Vredenburg lab.
-  - name: Prepping eel grass for study
-    description: I spent several hours preparing eel grass samples for tests. Scrapping of epiphytes and taking several measurements.
-computer:
-  intermediate:
-    - name: Powerpath
-      description: Used while at CCPL
-    - name: Sharepoint
-      description: Used while at CCPL
-    - name: MediaLab
-      description: Used while at CCPL
-    - name: Microsoft Office (Word/Excel/Powerpoint)
-      description: Used for years in multiple settings
-    - name: Openoffice (Writer/Calc/Impress)
-      description: Used for years in multiple settings
-    - name: Google Office (Document/Presentation/Spreadsheet)
-      description: Used for years in multiple settings
-  familiar:
-    - name: Adobe (Photoshop/Indesign)
-      description: Used for 1 year in high school for journalism as a page editor
-    - name: GIS
-      description: Used for mapping fieldwork numerous times over 3 years
-    - name: SPSS
-      description: Used in biometry for 1 semester
-  beginning:
-    - name: Python
-      description: I’m starting to learn coding through codeacademy
+    description: Ran qPCR for B. dendrobatidis.
+
 practical:
+  - name: Fieldwork
+    description: Collected soil core samples and data on <i>Spartina foliosa</i> for my Wetland Ecology class.
+  - name: Restoration Work
+    description: >
+      Assisted Boyer's lab in setting up plots of marine plants in the San Francisco Bay and aided in the removal of non-native Sea Lavendar (<i>L. durisculum</i> and <i>L. ramosissimum ssp. provinciale</i>).
+      Planted native plants at Jackson Bottom with Friends of Trees and cleared trails with The Wetland Conservancy.
+  - name: Handling and swabbing amphibians
+    description: Swabbed preserved specimens at the Cal Academy for a collaborative project with the Vredenburg lab. Swabbed live <i>Xenopus laevis</i> and <i>Rana cascadae</i> while at SFSU.
+  - name: herpetological identification
+    description: >
+      Had identification classwork at the Angelo Coast Range Reserve and did a terrestrial survey with Metro at the Chehalem Ridge Natural Area.
+      Performed eggmass surveys with the Wetland Conservancy.
+  - name: Prepping eel grass for study
+    description: Prepared eel grass samples for testing by scrapping off epiphytes and taking measurements.
   - name: SCUBA
     description: I received a NAUI open water certification
-  - name: Ability to handle and provide care to a variety of species
+  - name: Animal care
     description: Through volunteering, work, and my own experiences I have worked and taken care of a multitude of different animals.
+
+computer:
+  - name: Powerpath
+    description: Used while at CCPL
+  - name: Sharepoint
+    description: Used while at CCPL
+  - name: MediaLab
+    description: Used while at CCPL
+  - name: Microsoft Office (Word/Excel/Powerpoint)
+    description: Used for years in multiple settings
+  - name: Openoffice (Writer/Calc/Impress)
+    description: Used for years in multiple settings
+  - name: Google Office (Document/Presentation/Spreadsheet)
+    description: Used for years in multiple settings
+  - name: GIS
+    description: Used for mapping fieldwork numerous times over 3 years
+  - name: SPSS
+    description: Used in biometry for 1 semester
