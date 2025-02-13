@@ -41,7 +41,7 @@ computer:
     description: Used for years in multiple settings
   - name: Openoffice (Writer/Calc/Impress)
     description: Used for years in multiple settings
-  - name: Google Office (Document/Presentation/Spreadsheet)
+  - name: Google Office (Docs/Slides/Sheets)
     description: Used for years in multiple settings
   - name: GIS
     description: Used for mapping fieldwork numerous times over 3 years
