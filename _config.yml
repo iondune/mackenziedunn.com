@@ -1,8 +1,8 @@
 
 # Site settings
-title: MackenzieBeaschler
+title: MackenzieDunn
 baseurl: "/"
-url: "http://mackenziebeaschler.com"
+url: "http://mackenziedunn.com"
 
 # Build settings
 markdown: kramdown
